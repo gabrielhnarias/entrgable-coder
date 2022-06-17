@@ -1,0 +1,103 @@
+/* ------------MIXINS TESTIMONIALES-------------- */   
+
+$insta:rgb(165, 44, 101);
+$linke:rgb(52, 79, 97);
+$twitt:rgb(45, 107, 201);
+
+@mixin estiloCard($color) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 1px 5px 15px;
+    border-radius: 5px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    .div-testimonios-img{
+        margin: 20px;
+        img{
+            width: 200px;
+            height: 200px;
+        }
+    }
+    .div-testimonios-texto {
+        padding: 30px;
+        text-align: left;
+        h3{
+            margin-bottom: 10px;
+            display: inline-block;
+            color: $color;
+        }
+        p{
+            color: $color;
+        }
+    }
+}
+
+@mixin estiloCardMM($color) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 1px 5px 15px;
+    border-radius: 5px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    .div-testimonios-img{
+        margin: 20px;
+        img{
+            width: 200px;
+            height: 200px;
+        }
+    }
+    .div-testimonios-texto {
+        padding: 30px;
+        text-align: left;
+        h3{
+            margin-bottom: 10px;
+            display: inline-block;
+            color: $color;
+        }
+        p{
+            color: $color;
+        }
+    }
+}
+
+
+/* ------------TESTIMONIALES-------------- */   
+
+.testimonios {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    .tes-art1 {
+        @include estiloCard($insta)
+    }
+    .tes-art2 {
+        @include estiloCard($insta)
+    }
+    .tes-art3 {
+        @include estiloCard($linke)
+    }
+    .tes-art4 {
+        @include estiloCard($linke)
+    }
+    .tes-art5 {
+        @include estiloCard($twitt)
+    }
+    .tes-art6 {
+        @include estiloCard($twitt)
+    }
+    
+}

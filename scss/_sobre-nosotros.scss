@@ -1,0 +1,92 @@
+/* ----------SOBRE NOSOTROS------------ */
+
+.sobre-nosotros{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap; 
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    .nosotros__article{
+        width: 80%;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.35) 1px 5px 15px;
+        border-radius: 5px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        .nosotros__article-h3{
+            display: flex;
+            justify-content: flex-start;
+            margin-top: 5rem;
+            font-size: 40px;
+            color: $f-color1;
+        }
+        .nosotros__article-div{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin-top: 2rem;
+            overflow: auto;
+            .img-quienes {
+                width: 604px;
+                height: 351px;
+                border-radius: 5px;
+                margin-left: 30px;
+                margin-right: 20px;
+                margin-bottom: 20px;
+            }   
+            .img-mision {
+                width: 614px;
+                height: 437px;
+                border-radius: 5px;
+                margin-left: 30px;
+                margin-right: 45px;
+                margin-bottom: 30px;
+            }
+            .img-vision {
+                width: 531px;
+                height: 424px;
+                border-radius: 5px;
+                margin-left: 30px;
+                margin-right: 20px;
+                margin-bottom: 20px;
+            }
+            .img-propuesta {
+                width: 482px;
+                height: 321px;
+                border-radius: 5px;
+                margin-left: 30px;
+                margin-right: 20px;
+                margin-bottom: 20px;
+            }
+            .nosotros__article-div-p {
+                font-size: 18px;
+                margin-top: 20px;
+                margin-left: 70px;
+                margin-right: 70px;
+                margin-bottom: 60px;
+                color: $f-color2;
+                text-align: justify;
+            }
+        }
+    }
+}
+
+.sobre-nosotros-tablet {
+    display: none;
+}
+
+.sobre-nosotros-movil {
+    display: none;
+}
+
