@@ -612,6 +612,13 @@ html {
       .testimonios .tes-art6 .div-testimonios-texto p {
         color: #2d6bc9; }
 
+/* ------------PREGUNTAS FRECUENTES-------------- */
+.bots-1 .bots-2 .bots-2-h2 {
+  color: #4A59EB; }
+
+.bots-1 .bots-3 .bots-4-p {
+  color: #303C57; }
+
 /* ----------------------------------------MEDIAS QUERIES (TABLET Y PANTALLAS PEQUEÑAS)---------------------------------------------------------------------- */
 @media screen and (min-width: 768px) and (max-width: 1399px) {
   /* ------------INDEX-------------- */
