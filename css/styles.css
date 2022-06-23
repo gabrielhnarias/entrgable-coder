@@ -231,6 +231,8 @@ html {
       outline: none;
       text-align: left;
       resize: none; }
+    .contenedor-formulario .formulario .text-area-tablet {
+      display: none; }
     .contenedor-formulario .formulario .submit {
       width: 300px;
       height: 40px;
@@ -777,7 +779,7 @@ html {
       .contenedor-formulario .formulario .formulario__label {
         color: #4A59EB; }
       .contenedor-formulario .formulario .input-comun {
-        width: 800px;
+        width: 680px;
         height: 30px;
         background-color: #ffffff;
         border: none;
